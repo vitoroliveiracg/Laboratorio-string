@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script/script.js" defer></script>
+
+  <style>
+    span{
+      background-color: yellow;
+    }
+  </style>
+
+  <title>Exercicios String</title>
+</head>
+<body>
+  <h1>Trabalho String</h1>
+  <p>Digite e seleciona o que deseja</p>
+  <p>Digite datas no formato: dd/mm/aaaa ou (dd/mm/aaaa dd/mm/aaaa)</p>
+  
+  <input placeholder="Digite um texto" type="text" id="digitedText">
+  <input placeholder="Primeria data" type="text" id="primeiraData" style="display: none;">
+  <input placeholder="Segunda data" type="text" id="segundaData" style="display: none;">
+  <button style="display: none;" id="lerSemanas">Calcular semanas</button>
+   <br> <br>
+  <input style="display: none;" placeholder="buscar" type="text" id="digitedSearch">
+  <input style="display: none;" placeholder="substituir"  type="text" id="digitedReplace">
+  <button  style="display: none;" id="buscarESubstituir">Buscar/Substituir</button>
+  <br>
+  <button id="inverter">Inverter</button>
+  <button id="vogais">Marcar vogais</button>
+  <button id="contarPalavras">Contar palavras</button>
+  <button id="maisPalavra">Palavra mais comum</button>
+  <button id="modoBusca">Modo buscar</button>
+  <button id="dataParaDiasDeVida">Data de nascimento --> Dias de vida</button>
+  <button id="lerData">Ler data</button>
+  <button id="modoDatas">Modo datas</button>
+  <button id="tenisPolar">TENIS/POLAR</button>
+  <div id="content"></div>
+
+  <table id="tabela"></table>
+  <br><br><br><br><br>
+  <p>Digite uma senha</p>
+  <div style="border: 1px solid black; display: inline; padding: 10px;" id="divSenha">
+    <input type="password" id="textoSenha"> 
+  </div>
+  <button id="mostrarSenha">Ver senha</button>
+
+</body>
+</html>
